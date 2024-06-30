@@ -104,16 +104,7 @@ main() {
     get_output_directory
 
     declare -a sources=(
-        "https://www.proxy-list.download/api/v1/get?type=http"
-        "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all"
-        "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
-        "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt"
-        "https://www.proxy-list.download/api/v1/get?type=https"
-        "https://api.proxyscrape.com/v2/?request=getproxies&protocol=https&timeout=10000&country=all"
-        "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
-        "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt"
-        "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt"
-        "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt"
+        "https://github.com/officialputuid/KangProxy/blob/KangProxy/socks5/socks5.txt"
     )
 
     local proxy_file="$OUTPUT_DIR/proxy.txt"
